@@ -1,0 +1,30 @@
+#logo {
+    padding-top: 5%;
+  }
+
+#formulario{
+    border-radius: 15px;
+    align-content: center;
+}
+#parraf{
+    width: 100%;
+    align-content: center;
+}
+body{
+    align-content: center;
+}
+
+#btn{
+    background-color:#EC1A63;
+    border-color: #EC1A63;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+}
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

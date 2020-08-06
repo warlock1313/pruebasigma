@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba sigma</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1 id="logo"  class="text-center"><img src="img/sigma-logo.png" alt=""></h1>
+        <h2 class="text-center">Prueba de desarrollo sigma</h2><br>
+        <p id="parraf"  class="lead text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis porro earum est! Dicta repellat voluptatum sequi, harum ab nulla cumque vitae cupiditate, accusamus, dolorum rerum nisi? Delectus temporibus autem vitae?</p><br>
+    </div>
+    </header>
+    
+        <div class="container d-flex p-2">
+            <section class="main row ">
+                <img class="col-xs-12 col-sm-12 col-md-6"  src="img/sigma-image.png" alt="">
+
+                <div  id="formulario" class="border shadow p-3 mb-5 bg-white rounded col-xs-12 col-sm-12 col-md-6 card-body" >
+                    <div class="form-group">
+                         <form action="guardar.php" method="post">
+                             
+                            <label for=""><strong>Departamento*</strong></label><br>
+                            <select id="departamentos" name="departamentos"  class="form-control "  >
+                                
+                            </select><br>
+                            <label for=""><strong>Ciudad*</strong></label><br>
+                            <select id="ciudades" name="ciudades"  class="form-control "  >
+                               
+                              </select><br>
+                            <label for=""><strong>Nombre*</strong></label><br>
+                            <input type="text" id="nombre" name="ciudades"  class="form-control" placeholder="Pepito de Jesus"><br>
+                            <label for=""><strong>Correo*</strong></label><br>
+                            <input type="email" id="email" name="email"  class="form-control" placeholder="Pepitodejesus@gmail.com"><br>
+                            <div style="text-align:center">  
+                                <input  type="submit" id="btn" class="btn btn-primary" >
+                            </div> 
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    
+    <script src="js/jQuery.js"></script>
+    <script src="js/myscript.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
